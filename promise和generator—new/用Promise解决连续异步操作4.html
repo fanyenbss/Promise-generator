@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="jquery.js" charset="utf-8"></script>
+    <script>
+    $.ajax({
+      url: '1.txt',
+      dataType: 'json'
+    }).then(arr=>{
+      alert(arr);
+    }, (err)=>{
+      alert(err);
+    });
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
