@@ -1,2 +1,0 @@
-# Promise-generator
-Promise-generator
